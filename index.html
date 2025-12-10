@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Cabrera - Portfolio</title>
+
     <style>
         body {
             margin: 0;
@@ -12,30 +13,53 @@
             color: #ffffff;
         }
         header {
-            padding: 40px;
+            padding: 50px 20px;
             text-align: center;
             background-color: #161b22;
             border-bottom: 1px solid #30363d;
         }
         h1 {
-            font-size: 36px;
+            font-size: 40px;
             margin: 0;
         }
         h2 {
             margin-top: 40px;
             border-bottom: 1px solid #30363d;
-            padding-bottom: 5px;
+            padding-bottom: 8px;
+            font-size: 26px;
         }
         .section {
             width: 90%;
-            max-width: 900px;
+            max-width: 1000px;
             margin: auto;
-            padding: 20px 0;
+            padding: 30px 0;
         }
+
+        /* FOTO + SOBRE MI */
+        .about-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 25px;
+        }
+
+        .about-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #30363d;
+        }
+
+        .about-text {
+            flex: 1;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
         .projects div {
             background-color: #161b22;
-            padding: 15px;
-            margin-bottom: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
             border: 1px solid #30363d;
             border-radius: 8px;
         }
@@ -50,6 +74,7 @@
             text-align: center;
             padding: 20px;
             color: #8b949e;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -63,22 +88,33 @@
         <a href="mailto:johncabreraguerrero@gmail.com">johncabreraguerrero@gmail.com</a> · 
         Madrid · 
         <a href="https://github.com/johncabrera26" target="_blank">GitHub</a> · 
-        <a href="CV_John_Cabrera.pdf" download>Descargar CV</a>
+        <a href="JOHN-CABRERA-FlowCV-Resume-20251203 (1).pdf" download>Descargar CV</a>
     </p>
 </header>
 
 <div class="section">
     <h2>Sobre mí</h2>
-   
-    <p>
-        Soy un desarrollador de aplicaciones multiplataforma (DAM) con experiencia 
-        creando soluciones reales durante mis prácticas profesionales. 
-        Manejo Java, Spring Boot, MySQL, Git, HTML, CSS, JavaScript y Android Studio.
-    </p>
+
+    <div class="about-container">
+        <img src="caramia (1).jpg" alt="Foto de perfil">
+
+        <div class="about-text">
+            <p>
+                Soy un desarrollador de aplicaciones multiplataforma (DAM) con experiencia 
+                creando soluciones reales durante mis prácticas profesionales. 
+                Manejo Java, Spring Boot, MySQL, Git, HTML, CSS, JavaScript y Android Studio.
+            </p>
+            <p>
+                Me considero una persona responsable, constante y con muchas ganas de seguir creciendo 
+                en el mundo del desarrollo de software.
+            </p>
+        </div>
+    </div>
 </div>
 
 <div class="section">
     <h2>Proyectos</h2>
+
     <div class="projects">
 
         <div>
